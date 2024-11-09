@@ -9,7 +9,7 @@ interface HeroProps {
 export function Hero({ name, title, imageUrl }: HeroProps) {
   return (
     <section className="flex flex-col sm:flex-row items-center gap-8">
-      <div className="relative w-30 h-24 md:w-40 md:h-40">
+      <div className="relative w-30 h-24 md:w-32 md:h-32">
         <Image
           src={imageUrl}
           alt={name}
